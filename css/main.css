@@ -73,7 +73,7 @@ a {
 }
 
 .header {
-  background-image: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(/../img/hero-bg.jpg);
+  background-image: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(./../img/hero-bg.jpg);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@ a {
 }
 
 .walkways {
-  background-image: linear-gradient(180deg, hsla(223, 94%, 6%, 0.966) 0%, rgba(1, 10, 32, 0.904) 100%), url(../../img/walkways-bg.jpg);
+  background-image: linear-gradient(180deg, hsla(223, 94%, 6%, 0.966) 0%, rgba(1, 10, 32, 0.904) 100%), url(./../img/walkways-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ a {
 }
 
 .beaches {
-  background-image: linear-gradient(180deg, hsla(223, 94%, 6%, 0.966) 0%, rgba(1, 10, 32, 0.904) 100%), url(../../img/beaches-bg.jpg);
+  background-image: linear-gradient(180deg, hsla(223, 94%, 6%, 0.966) 0%, rgba(1, 10, 32, 0.904) 100%), url(./../img/beaches-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ a {
 }
 
 .secrets {
-  background-image: url(../../img/secrets-bg.jpg);
+  background-image: url(./../img/secrets-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header-pos">
+            <a href="#"><svg class="logo">
+                    <use href="./img/symbol-defs.svg#icon-Group-7"></use>
+                </svg></a>
+            <ul class="header-list">
+                <li class="header-list-nav">destinations</li>
+                <li class="header-list-nav">experiences</li>
+                <li class="header-list-nav">about</li>
+                <li class="header-list-nav">gallery</li>
+            </ul>
+
+            <ul class="header-list-search">
+                <li class="header-nav-search"><a href="#"><svg class="nav-search-svg">
+                            <use href="./img/symbol-defs.svg#icon-search"></use>
+                        </svg>
+                    </a></li>
+                <li class="header-nav-search"><a href="#"><svg class="nav-search-svg">
+                            <use href="./img/symbol-defs.svg#icon-menu"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <section class="hero">
+            <h2 class="hero-title">explore
+                indonesia</h2>
+            <button class="hero-button">Start travelling</button>
+            <ul class="hero-list">
+                <li class="hero-item">
+                    <p class="hero-item-num">01</p>
+                    <h3 class="hero-item-title">Title here</h3>
+                    <p class="hero-item-subtitle">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                </li>
+                <li class="hero-item">
+                    <p class="hero-item-num">02</p>
+                    <h3 class="hero-item-title">Title here</h3>
+                    <p class="hero-item-subtitle">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                </li>
+                <li class="hero-item">
+                    <p class="hero-item-num">03</p>
+                    <h3 class="hero-item-title">Title here</h3>
+                    <p class="hero-item-subtitle">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                </li>
+            </ul>
+            <div class="ratio ratio-16x9">
+                <iframe width="1239" height="697" src="https://www.youtube.com/embed/y-n8sCVBsr0"
+                    title="24 HOURS DRONE FILM INDONESIA in 4K + Relaxation Film 4K | Nature Relaxation Ambient"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; rel=0; modestbranding=1;"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="walkways container">
+            <img src="./img/walkways-img.jpg" alt="mountain" class="walkways-img">
+            <h2 class="walkways-title">The walkways of Indonesia spellbind</h2>
+            <p class="walkways-subtitle">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna
+                et libero mollis rhoncus. </p>
+            <button class="walkways-bt">Learn More</button>
+        </section>
+
+        <section class="beaches container">
+            <img src="./img/beaches-img.jpg" alt="beach" class="walkways-img">
+            <h2 class="walkways-title">Perfect beaches exude relaxation and fun</h2>
+            <p class="walkways-subtitle">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna
+                et libero mollis rhoncus. </p>
+            <button class="walkways-bt">Learn More</button>
+        </section>
+
+        <section class="secrets">
+            <div class="secrets-ct">
+                <h2 class="secrets-title">Explore Our Secrets</h2>
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/beaches-img.jpg" class="carousel" alt="beach">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/walkways-img.jpg" class="carousel" alt="mountain">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/corusel-1.jpg" class="carousel" alt="mountain">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/corusel-2.jpg" class="carousel" alt="mountain">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/corusel-3.jpg" class="carousel" alt="mountain">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="numbers">
+                <h2 class="numbers-title">By The Numbers</h2>
+                <p class="numbers-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna
+                    et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                <ul class="numbers-list">
+                    <li class="numbers-item">
+                        <h3 class="numbers-item-title">100+</h3>
+                        <p class="numbers-item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                    </li>
+                    <li class="numbers-item">
+                        <h3 class="numbers-item-title">43,000+</h3>
+                        <p class="numbers-item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+                    </li>
+                    <li class="numbers-item">
+                        <h3 class="numbers-item-title">30+</h3>
+                        <p class="numbers-item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="menu.js"></script>
+    <script src="modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

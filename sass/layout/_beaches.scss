@@ -1,0 +1,10 @@
+.beaches {
+    background-image: linear-gradient(180deg, hsla(223, 94%, 6%, 0.966) 0%, rgba(1, 10, 32, 0.904) 100%), url(../../img/beaches-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

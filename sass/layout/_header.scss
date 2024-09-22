@@ -1,0 +1,120 @@
+.header {
+    background-image: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(/../img/hero-bg.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    &-pos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 145px;
+        height: 60px;
+    }
+
+    &-list {
+        display: none;
+        display: flex;
+        gap: 60px;
+
+        &-nav {
+            display: none;
+            color: #FFF;
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+
+    &-list-search {
+        display: flex;
+        gap: 25px;
+        padding-top: 10px;
+    }
+
+    .nav-search-svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero {
+        margin-top: 45px;
+
+        &-title {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 62.997px;
+            text-transform: uppercase;
+        }
+
+        &-button {
+            color: rgba(255, 255, 255, 0.80);
+            text-align: center;
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            padding: 20px 69px;
+            border-radius: 107px;
+            border: none;
+            background-color: #DD2242;
+            margin-top: 5px;
+
+            &:active {
+                background-color: #dd2241d7;
+            }
+        }
+
+        &-list {
+            padding: 33px 33px;
+            border: 1px solid hsla(0, 0%, 0%, 0.603);
+            background-color: hsla(0, 0%, 0%, 0.61);
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 55px;
+        }
+
+        &-item-num {
+            color: #DD2242;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        &-item-title {
+            color: #FFF;
+            font-family: "DM Sans";
+            font-size: 26.409px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 41.081px;
+        }
+
+        &-item-subtitle {
+            color: #939393;
+            font-feature-settings: 'liga' off,
+                'clig' off;
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+        }
+    }
+}

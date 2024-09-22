@@ -1,0 +1,18 @@
+%buttons {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 20px 69px;
+    border-radius: 107px;
+    border: none;
+    background-color: #DD2242;
+    margin-top: 5px;
+
+    &:active {
+        background-color: #dd2241d7;
+    }
+}
